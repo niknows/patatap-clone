@@ -171,6 +171,7 @@
     function onKeyDown(event) {
     
        if(keyData[event.key]){
+       
        var maxPoint = new Point(view.size.width, view.size.height);
        var randomPoint = Point.random();
        var point = randomPoint * maxPoint;
@@ -179,6 +180,7 @@
        keyData[event.key].sound.play();
        
        teste.push(myCircle);
+       
        }
                    
     }      
